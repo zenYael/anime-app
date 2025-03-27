@@ -1,12 +1,8 @@
-# React + Vite
+# Mi Primer App en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi primer proyecto usando **React**. La aplicación obtiene información de **animes** usando la **API de Jikan** 
 
-Currently, two official plugins are available:
+## ¿Qué hace esta aplicación?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Muestra una lista de animes populares obtenidos de la API de Jikan.
+- La app está construida con React para aprender sobre componentes y gestión del estado.
