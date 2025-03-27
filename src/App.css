@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.anime-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.anime-card {
+  background: rgb(73, 68, 70);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  text-align: center;
+}
+
+.anime-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.anime-card p {
+  margin: 5px 0;
+  font-weight: bold;
+}
